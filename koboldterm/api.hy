@@ -5,7 +5,7 @@
 (import requests.exceptions [HTTPError JSONDecodeError ConnectionError])
 
 
-(setv server "http://localhost:5000")
+(setv server "http://localhost:5001")
 
 
 (defn set-server [[new-server None]]
